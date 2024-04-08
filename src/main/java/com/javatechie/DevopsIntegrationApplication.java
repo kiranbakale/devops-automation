@@ -11,7 +11,7 @@ public class DevopsIntegrationApplication {
 
 	@GetMapping
 	public String message(){
-		return "welcome to javatechie";
+		return "Hello from spinnaker-uat-app";
 	}
 
 	public static void main(String[] args) {
